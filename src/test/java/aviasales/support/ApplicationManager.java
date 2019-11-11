@@ -51,7 +51,6 @@ public class ApplicationManager {
         wd.get(properties.getProperty("site.url"));
     }
 
-
     public void openCalendar() {
         wd.get(properties.getProperty("calendar.url"));
     }

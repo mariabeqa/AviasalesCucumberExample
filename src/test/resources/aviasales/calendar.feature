@@ -26,7 +26,6 @@ Feature: Calendar
       | Москва | Санкт-Петербург | июнь  |
       | Москва | Анталия         | июль  |
 
-
   Scenario Outline: User searches the cheapest flight within selected season
     When User fills in destination '<from>' and '<to>'
     And Selects desired season - '<season>'
